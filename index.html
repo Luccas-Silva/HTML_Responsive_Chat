@@ -18,38 +18,43 @@
               <img src="https://avatars.githubusercontent.com/u/89430801?v=4" alt="Luccas Silva">
                 <div id="user-status">
                     <strong>Luccas Silva</strong>
-                    <div id="status">Online</div>
+                    <div class="status">Online</div>
                 </div>  
             </div>
             <div id="chat-info">
-                <i class="ph-phone"></i>
-                <i class="ph-dots-three-vertical"></i>
+                <button><i class="ph-phone"></i></button>
+                <button><i class="ph-dots-three-outline-vertical"></i></button>
             </div>
         </div>
         <div id="messages">
-            <div id="lest-seen">Hoje 11:30</div>
-            <div id="messages">
-                <div id="message">
-                    <div id="top">Luccas - 11:30</div>
-                    <div id="body">Tive uma ideia incrível para um projeto!</div>
+            <div id="lest-seen">Hoje 18:00</div>
+            <div class="messages">
+                <div class="message">
+                    <div class="top">Luccas - 18:00</div>
+                    <div class="body">Tive uma ideia incrível para um projeto!</div>
                 </div>
-                <div id="message you">
-                    <div id="top">Você - 11:32</div>
-                    <div id="body">Sério? Fala mais ai mano.</div>
+                <div class="message you">
+                    <div class="top">Você - 18:02</div>
+                    <div class="body">Sério? Fala mais ai mano.</div>
                 </div>
-                <div id="message">
-                    <div id="top">Luccas - 11:34</div>
-                    <div id="body">E se a gente fizesse um chat moderno e responsivo ?</div>
+                <div class="message">
+                    <div class="top">Luccas - 18:04</div>
+                    <div class="body">E se a gente fizesse um chat moderno e responsivo ?</div>
                 </div>
-                <div id="message you">
-                    <div id="top">Você - 11:36</div>
-                    <div id="body">Que ideia legal, bora mano.</div>
+                <div class="message you">
+                    <div class="top">Você - 18:06</div>
+                    <div class="body">Que ideia legal, bora mano.</div>
                 </div>
             </div>
         </div>
-        <div id="bottom">C</div>
-       
+        <form id="bottom">
+            <input type="text" placeholder="Digite sua mensagem">
+            <button><i class="ph-paper-plane-tilt"></i></button>
+        </form>
     </div>
-    
+    <script>
+        const messages = document.querySelector(".messages")
+        messages.lastElementChild.scrollIntoView()
+      </script>
 </body>
 </html>
