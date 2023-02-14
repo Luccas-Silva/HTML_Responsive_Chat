@@ -7,7 +7,7 @@
 </div>
 
 ### Ideia do Projeto 
-- Elaborar e construir um designer de um chat de forma responsiva e treinar minhas habilidades em HTML e CSS.
+- Elaborar um designer e construir um chat de forma responsiva e treinar minhas habilidades em HTML e CSS.
 
 ## Tecnologias usadas
 - `HTML`
